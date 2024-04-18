@@ -36,9 +36,9 @@ This is a freeform assignment. You can write a web API that returns a set of foo
 San Francisco's food truck open dataset is [located here](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data) and there is an endpoint with a [CSV dump of the latest data here](https://data.sfgov.org/api/views/rqzj-sfat/rows.csv). We've also included a copy of the data in this repo as well.
 
 Pure FE Work:
-TODO: Request csv file and parse to get all data stored in context
-TODO: Show all food trucks while initilizing
-TODO: Filter out all related food trucks according to a given place
+DONE: Request csv file and parse to get all data stored in context
+DONE: Show all food trucks while initilizing
+DONE: Filter out all related food trucks according to a given place
 TODO: Add unit tests with Jest
 
 Other:
