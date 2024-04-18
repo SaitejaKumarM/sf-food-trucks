@@ -1,0 +1,10 @@
+.operation {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.operation input {
+  width: 500px;
+}
