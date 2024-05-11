@@ -1,0 +1,18 @@
+services:
+  service:
+    container_name: food_trucks
+    image: food_trucks_web
+    build:
+      context: .
+      dockerfile: deploy/Docker/Dockerfile
+      target: service
+    ports:
+      - 9501:9501
+
+  unit-tests:
+    container_name: food_trucks_web_unit_tests
+    image: food_trucks_web_unit_tests
+    build:
+      context: .
+      dockerfile: deploy/Docker/Dockerfile
+      target: unit-tests

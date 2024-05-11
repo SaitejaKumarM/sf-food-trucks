@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TruckItem /> should render correctly 1`] = `
+<div>
+  <div
+    class="truckItem"
+  >
+    <p
+      class="location"
+    >
+      location: 
+      MARKET ST: DRUMM ST intersection
+    </p>
+    <p
+      class="food"
+    >
+      foods: 
+      Fried Chicken: Fried Fish: Greens: Mac & Cheese: Peach Cobbler: and String beans
+    </p>
+  </div>
+</div>
+`;
