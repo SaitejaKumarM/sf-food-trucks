@@ -1,2 +1,2 @@
 config :sffoodtrucks, SFFoodTrucks.API,
-  http: [port: 4001]
+  http: [port: 4000]

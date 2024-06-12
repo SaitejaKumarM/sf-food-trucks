@@ -21,7 +21,8 @@ defmodule SFFoodTrucks.MixProject do
   defp deps do
     [
       {:plug_cowboy, "~> 2.0"},
-      {:poison, "~> 4.0"}
+      {:poison, "~> 4.0"},
+      {:nimble_csv, "~> 1.0"}
     ]
   end
 end
